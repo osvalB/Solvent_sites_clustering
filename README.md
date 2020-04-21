@@ -8,7 +8,7 @@ To obtain the solvent sites the command is:
 
 python scipy_ss2.py -nc traj.nc -p top.prmtop -bs :1-20,23,25,28-40 -dist 0.23 -outdir eta_C1_sites -r ref.pdb -solv ETA -probe C1 -ff 0 -lf 999 -watNmin 80
 
--bs is the binding site using AMBER selection sintax.
+-bs is the binding site using AMBER selection sintax. \\
 -dist is the distance to join the probe atoms.
 -ff is the first frame of the molecular dynamic we want to analyze.
 -lf is the last frame.
