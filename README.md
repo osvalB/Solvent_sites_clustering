@@ -20,4 +20,5 @@ python scipy_ss2.py -nc traj.nc -p top.prmtop -bs :1-20,23,25,28-40 -dist 0.23 -
 
 -r is the reference PDB that will be used to align the trajectory.
 
-The default density corresponds to the ethanol density. If you want to get the water sites you should use -dens 0.0334 as argument.
+The default density corresponds to the ethanol density. If you want to get the water sites you should use -dens 0.0334 as argument. The unit of density are #molecules / (A^3).
+
