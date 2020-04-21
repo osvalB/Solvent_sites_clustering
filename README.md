@@ -5,7 +5,7 @@ using as input molecular dynamics in AMBER format (https://ambermd.org/).
 It requieres: A molecular dynamics trajectory file (*.netcdf) and a topology file (*.prmtop).
 The python libraries pytraj, scipy and networkx.
 
-To obtain the solvent sites the command is:
+To obtain the solvent sites run the following command:
 
 python scipy_ss2.py -nc traj.nc -p top.prmtop -bs :1-20,23,25,28-40 -dist 0.23 -outdir eta_C1_sites -r ref.pdb -solv ETA -probe C1 -ff 0 -lf 999 -watNmin 80
 
