@@ -2,7 +2,8 @@
 This repo contains the information on how to obtain solvent sites according to https://watclust.wordpress.com/methodology/
 using as input molecular dynamics in AMBER format (https://ambermd.org/).
 
-It requieres: A molecular dynamics trajectory (*.netcdf) and a topology file (*.prmtop)
+It requieres: A molecular dynamics trajectory file (*.netcdf) and a topology file (*.prmtop).
+The python libraries pytraj, scipy and networkx.
 
 To obtain the solvent sites the command is:
 
