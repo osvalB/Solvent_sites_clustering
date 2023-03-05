@@ -5,19 +5,19 @@ Created on Wed Jun  5 13:16:19 2019
 
 @author: osvaldo
 
-El siguiente script se usa para calcular sitios de solvente 
-con el algoritmo descripto en https://watclust.wordpress.com/methodology/
+The following script can be used to calculate the solvent sites as described in
+https://watclust.wordpress.com/methodology/
 
-Requiere las librerias:
+Requires:
 
 	scipy, networkxy pytraj
 
-Ejecutar como python scipy_ss2.py para comprender los argumentos requeridos
+Run as python scipy_ss2.py to understand the script arguments
 
-La nomeclatura del "binding site" debe estar en formato AMBER.
+The "binding site" nomeclature should be in AMBER format
 
-Atención: Para un correcto cálculo de la energía del sitio debe estar 
-la densidad del cosolvente en # moleculas / (A^3)
+Caution: For a correct computation of the solvent site energy,
+the density of the cosolvent should be in # moleculas / (Å^3)
 
 """
 from __future__ import division
