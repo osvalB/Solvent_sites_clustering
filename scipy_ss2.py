@@ -128,6 +128,10 @@ dicc                 = pdb_to_dict(scratch_pdb_name)
 os.system("rm -f " + scratch_pdb_name)
 
 def to_graph(l):
+	"""
+	The function to_graph() and to_edges() are based on a Quora answer given by 'min2bro' 
+	https://stackoverflow.com/questions/48600703/merge-tuples-in-list-with-similar-elements
+	"""
     G = networkx.Graph()
     for part in l:
         # each sublist is a bunch of nodes
